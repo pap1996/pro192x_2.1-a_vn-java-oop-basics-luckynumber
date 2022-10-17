@@ -8,7 +8,7 @@
 
 ## About the project
 
-- The project covers Java basics and OOP (the UI is just displays on console):  use Math.random() for random generator, control flow with if-else, variables and expressions in Java, printing out in console, loops in Java.
+- The project covers Java basics and OOP (the UI is just simple print-outs on console):  use Math.random() for random generator, control flow with if-else, variables and expressions in Java, printing out in console, loops in Java.
 
 - **Keyword**: _Java basics, collections, object-oriented programming, OOP_.
 
