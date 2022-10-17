@@ -8,23 +8,23 @@
 
 ## About the project
 
-- The project consists of 3 parts with different coverage of OOP (the UI is just displays on console):
-  - Part 1 - Lucky number: use
-
-- **Keyword**: _logical database design, physical database design, ERD, T-SQL, data model, normalization, 3NF, Microsoft SQL Server_.
+- The project consists of 3 parts with different coverage of Java basics and OOP (the UI is just displays on console):
+  - <a href="PRO192x_Project 1_phupaFX07929@funix.edu.vn">_**Part 1 - Lucky number**_</a> : use Math.random() for random generator, control flow with if-else, variables and expressions in Java, printing out in console, loops in Java.
+  -
+- **Keyword**: _Java basics, collections, object-oriented programming, OOP_.
 
 ## Functional description
-<!-- - <a href="Part1_DBI202x_ASM1_phupaFX07929.pdf" target="_blank">Part 1 - _Analyse and design database model_</a> : this part presents the process with following steps:
-  - Define **Functional** features of an online newspaper as well as **Non-Functional** ones that affects database design.
-  - Create **ERD** with compliant symbols representing **entities, attributes and relationships** and detailed explanations.
-  - Translate logical design to **physical design** with tables (with primary keys, foreign keys and constraints).
-- <a href="Part2_DBI202x_ASM2_phupaFX07929\DBI202x_ASM2_phupaFX07929.pdf">Part 2 - _Implement database design with Microsoft SQL Server_</a> : based on the results of Part 1, database should be physically implemented with following requirements:
-  - Include the source code (T-SQL script) to create database as per the design from Part 1.
-  - Create tables with samples of at least 10 records.
-  - Create a least a trigger, stored procedure, function, index, transaction with detailed explanations.
-  - Execute queries using join, out-join, order by, string comparison and date-time filtering (with explanations). -->
+
+- <a href="PRO192x_Project 1_phupaFX07929@funix.edu.vn">_**Part 1 - Lucky number**_</a> :
+  - Generate a random number (this is so-called _Lucky Number_) which is between 0 and 100.
+  - User inputs his guess and then print out the console **_"số may mắn nhỏ hơn số dự đoán của bạn"_** if the lucky number is **less** than the user's guess; _**"số may mắn lớn hơn số dự đoán của bạn"**_ if the lucky number is greater than the user's guess; "**_chúc mừng bạn đã đoán đúng con số may mắn sau x lần dự đoán"_** if the user gives the right guess (with x is the number of guesses)
+  - The guess ends up with the question whether user would like to continue a new turn of guess or not. If yes, continue a new cycle of above steps. Otherwise, report with the total of plays, the total of guess, the average number of guesses per lucky number and the best play.
+
+![](res/image/lucky_number.png)
 
 ## Demo
 
+- The demo of <a href="PRO192x_Project 1_phupaFX07929@funix.edu.vn">_**Part 1 - Lucky number**_</a> can be seen via https://www.youtube.com/watch?v=oEKnCvus414
 
+[![](res/image/demo_luckynumber.gif)](https://www.youtube.com/watch?v=oEKnCvus414)
 ## Further enhancement
